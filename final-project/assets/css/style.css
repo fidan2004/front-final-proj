@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* header starts */
+
+  .header-social-container
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 1rem; 
+}
+.header-social-container li,.header-contact  li
+{
+    list-style: none;
+    color: gray;
+   
+  
+}
+.header-social-container li a
+{
+    text-decoration: none;
+    height:2rem;
+    width:2.5rem;
+   
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    color:black;
+    line-height: 2rem;
+    background: #eee;
+    text-align: center;
+   
+   color: grey;
+  
+}
+.header-contact  li a{
+    color: grey;
+
+}
+
+
+.header-contact
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+     position: absolute;
+    right: 3rem;
+    top: 1rem;
+    
+}
+
+/* navbar starts */
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+   
+    position: relative;
+    top: 4rem;
+   
+
+}
+.navbar-name
+{
+    padding-left: 3rem;
+    font-family: 'Dancing Script', cursive;
+   
+}
+.icons
+{
+    padding-right: 3rem;
+}
+.navbar-name i
+{
+    font-size: 1.7rem;
+}
+
+
+nav ul {
+    list-style-type: none;
+   
+  }
+  
+  nav ul li {
+    display: inline-block;
+  
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration:dashed;
+    font-weight: bolder;
+  }
+  nav ul li a:hover
+  {
+    color: rgb(129, 200, 224);
+    text-decoration: underline;
+    
+    
+  }
+  
+  nav ul li:hover > ul.submenu {
+    display: block;
+  }
+  
+  nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: .5rem;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 100%;
+    z-index: 100;
+  }
+  
+  nav ul li ul.submenu li {
+    display: block;
+  }
+  
+  nav ul li ul.submenu li a {
+    padding: 10px 20px;
+  }
+
+
+  .icons div{
+    height: 2.2rem;
+    width: 2.3rem;
+    line-height: 2rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--black);
+    font-size: 1rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .icons div:hover{
+    color:#fff;
+}
+  /* navbar ends */
+  
+/* header end */
+
+
+
+/* main starts */
+
+/* slider starts */
+.carousel {
+    position: relative;
+    top: 4rem;
+    border-radius: 5rem;
+    text-align: left;
+}
+
+
+.carousel-caption  h5
+{
+    position: absolute;
+   left: 2rem;
+   top:-15rem; 
+   font-size: 3rem;
+   color: black;
+   font-weight: bolder;
+}
+.carousel-caption  .slider-price
+{
+   position: absolute;
+   left: 3rem;
+   top:-7rem;
+   font-size: 2rem;
+   color: grey;
+   font-weight: bolder;
+}
+.slider-price-second
+{
+    position: absolute;
+   left: 7rem;
+   top:-7rem;
+   font-size: 2rem;
+   color: grey;
+   font-weight: bolder;
+}
+.carousel-caption  .slider-price span
+{
+  color: rgb(253, 184, 196);
+}
+.slider-price-second span
+{
+    color: rgb(253, 184, 196);
+}
+
+.slider-btn {
+    background: rgb(253, 184, 196);
+    color: white;
+    width: max-content;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 6px 11px;
+    border-radius: 0.5rem;
+    border-color: rgb(253, 184, 196);
+    transition: 0.2s ease;
+    position: absolute;
+   left: 8rem;
+   top:-2rem;
+  }
+  .firstbtn
+  {
+    position: absolute;
+    left: 6rem;
+   top:-2rem;
+  }
+  .slider-btn:hover { background: rgb(244, 153, 153); }
+/* slider ends */
+
+
+
+/* home-category starts */
+/* .box1 img
+{
+    position: relative;
+    top: 5rem;
+    left: -10rem;
+    width: 30rem;
+    height: 42rem;
+    float: left;
+}
+.box4 img{
+    position: relative;
+    top: -36rem;
+    right: -10rem;
+    width: 25rem;
+    height: 42rem;
+    float: right;
+}
+.box3 img
+{
+    position: relative; 
+    right: -15rem;
+    width: 15rem;
+    height: 22rem;
+    float: center;
+}
+.box2 img
+{
+    position: relative; 
+    right: -15rem;
+    width: 15rem;
+    height: 22rem;
+    float: center;
+} */
+
+
+/* home-category ends */
+
+
+
+
+/* home-trend starts */
+
+
+.header-trend
+{
+   text-align: center;
+   font-family: cursive;
+  color: black;
+  font-size: 2rem;
+}
+.trend{
+    margin-top:8rem ;
+   
+}
+.header-trend p
+{
+    font-size: 15px;
+    font-style:oblique ;
+    margin-bottom: 4rem;
+   color: rgb(123, 119, 119);
+}
+.title-trend 
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.trend-title-second
+{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 3rem;
+}
+.title-trend .line{
+        height: 5px;
+        width: 55px;
+        background-color: #080808;
+        border-radius: 1px;
+        color: black;
+        margin: 0 20px;
+}
+
+  .product{
+  width: auto;
+  padding:0 1rem;
+ 
+}
+
+.product{
+  width: 100%;
+  /* padding: 0 6rem; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product img{
+  width: 230px;
+  height: 300px;
+  margin-bottom: 7px;
+  
+}
+.product img:hover 
+{
+  transform: scale(1.04); 
+}
+.product div p
+{
+  text-align: left;
+ 
+}
+
+.box
+{
+  position: relative;
+}
+.button
+{
+  width: 4rem;
+  height: auto;
+  border: 1px solid black;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top:.5rem;
+  left:1rem;
+  text-transform:capitalize;
+}
+.button2
+{
+  width: 4rem;
+  height: auto;
+  border: 1px solid rgb(231, 59, 59);
+  background-color: rgb(229, 42, 42);
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top:.5rem;
+  left:1rem;
+  text-transform:capitalize;
+
+}
+
+.load-more-btn-container
+{
+display: flex;
+text-align: center;
+justify-content: center;
+margin-top: 3rem;
+}
+.load-more-btn{
+    
+    width: 7.5rem;
+  height: 2.6rem;
+  border: 1px solid rgb(3, 0, 0);
+  background-color: rgb(255, 250, 250);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  border-width: 2px;
+  text-align: center;
+  
+
+}
+
+.load-more-btn:hover{
+    transition-duration: 2s;
+    background-color: rgb(138, 202, 209);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+ 
+}
+
+
+/* home-trends ends */
+
+.lookbook
+{
+    position: relative;
+}
+
+.lookbook .container{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+position: relative;
+left: -3rem;
+top: 5rem;
+}
+.lookbook .container img{
+position: relative;
+width: 31rem;
+height: 20rem;
+}
+.lookbook .container .image-one .content
+{
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+    text-align: center;
+    color:rgb(255, 251, 251);
+    font-weight: bold;
+    z-index: 101;
+    font-size: 1.4rem;
+}
+.lookbook .container .image-two .content
+{
+    position: absolute;
+    top: 8rem;
+    right: 7rem;
+    text-align: center;
+    color:rgb(255, 251, 251);
+    font-weight: bold;
+    z-index: 101;
+    font-size: 1.4rem;
+}
+
+/* main ends */
+
+
+/* best seller starts */
+
+.best-seller
+{
+   margin-top: 10rem;
+}
+.title-seller 
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.seller-title-second
+{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 3rem;
+}
+.title-seller .line{
+        height: 5px;
+        width: 55px;
+        background-color: #080808;
+        border-radius: 1px;
+        color: black;
+        margin: 0 20px;
+}
+
+
+/* best seller ends */
+
+/* instagram starts */
+
+.instagram
+{
+   margin-top: 10rem;
+}
+.title-instagram 
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-instagram .line{
+        height: 5px;
+        width: 55px;
+        background-color: #080808;
+        border-radius: 1px;
+        color: black;
+        margin: 0 20px;
+}
+
+/* instagram ends */
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 500px)
+{
+    .lookbook .container{
+   display: flex;
+   flex-direction: column;
+      
+  }
+  
+}
